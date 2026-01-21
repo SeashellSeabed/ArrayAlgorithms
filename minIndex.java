@@ -5,7 +5,7 @@ public class minIndex {
 
         int smallIndex = nums[0];
         int smallesti = 0;
-        for(int i = 0; i < nums.length; i++ ){
+        for(int i = 0; i < nums.length; i++){
             if(nums[i] < smallIndex){
                 smallesti = i;
             }
